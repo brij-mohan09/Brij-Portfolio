@@ -4,7 +4,6 @@
 }
 
 .navbar-brand {
-  font-size: 3em;
   font-weight: bolder;
   font-stretch: expanded;
   text-shadow: 0 0 3px #21ec06, 0 0 5px white;
@@ -83,11 +82,12 @@ from {
 }
 
 .btn a:hover {
-  color: #21ec06;
+  color: lightgreen;
 }
 
 
   .skillslider{
+    margin-top: 50px;
     width: 100%;
     height: auto;
     background-color: rgb(224, 222, 237);

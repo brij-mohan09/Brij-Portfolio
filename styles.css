@@ -3,6 +3,19 @@
     margin: auto 0;
 }
 
+.navbar-brand {
+  font-size: 3em;
+  font-weight: bolder;
+  font-stretch: expanded;
+  text-shadow: 0 0 3px #21ec06, 0 0 5px white;
+}
+
+/* 
+.navbar-nav a.nav-link:hover {
+  color: blue;
+}
+*/
+
 #navbarNavAltMarkup {
     justify-content: end;
     align-items: end;
@@ -18,7 +31,61 @@ body {
 .portfolio-logo {
     width: 80px;
     height: 80px;
+    mix-blend-mode: screen;
 }
+
+.headlines {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.headlines p {
+  color: black; 
+  /* font-family: "arial"; */
+  /* font-size: 3em; */
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: animtext 4s steps(80, end); 
+  transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animtext { 
+from {
+   width: 0;
+  transition: all 2s ease-in-out;
+} 
+}
+
+@media (max-width: 576px) {
+  .headlines p {
+    font-size: 0.5em;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .headlines p {
+    font-size: 0.7em;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1240px) {
+  .headlines p {
+    font-size: 1em;
+  }
+}
+
+.btn a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+}
+
+.btn a:hover {
+  color: #21ec06;
+}
+
 
   .skillslider{
     width: 100%;

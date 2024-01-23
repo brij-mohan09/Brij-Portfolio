@@ -15,13 +15,13 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html"><img src="./images/brij-mohan.png" alt="portfolio_logo" class="portfolio-logo"></a>
+              <a class="navbar-brand text-decoration-underline" href="./index.html"><img src="./images/brij-mohan.png" alt="portfolio_logo" class="portfolio-logo">Brij Mohan</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active fs-4" aria-current="page" href="#">HOME</a>
+                  <a class="nav-link active fs-4" aria-current="page" href="./index.html">HOME</a>
                   <a class="nav-link fs-4" href="#">SKILLS</a>
                   <a class="nav-link fs-4" href="#">ABOUT</a>
                   <a class="nav-link fs-4" href="#">CONTACT</a>
@@ -32,13 +32,15 @@
     </header>
 
     <main>
+      <!-- home section start -->
       <section>
         <div class="container">
           <div class="row g-3 p-4">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-4">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-4 text-start headlines">
               <p>Hello!</p>
-              <p>I am Brij Mohan</p>
-              <p>I am a Front-end Web Developer</p>
+              <p>I am <span class="text-primary text-decoration-underline">Brij Mohan.</span></p>
+              <p>I am a <span class="text-primary text-decoration-underline">Front-end Web Developer.</span></p>
+              <button class="btn btn-success mt-4 p-2"><a href="./resume/BrijMohan_resume.pdf">See My Resume</a></button>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-4">
               <div class="frontendpic"><img src="./images/font-end_web_developer.jpg" alt="frontend_web_dev"></div>
@@ -46,12 +48,15 @@
           </div>
         </div>
       </section>
+      <!-- home section end -->
 
+
+      <!-- skills slider start -->
       <section class="skillslider p-4">
         <div class="container h-100">
+          <h4 class="text-center text-dark text-decoration-underline fs-2">SKILLS</h4>
           <div class="row align-items-center h-100 p-4">
             <div class="container rounded">
-              <h4 class="text-center text-dark text-decoration-underline fs-2">SKILLS</h4>
               <div class="slider">
                 <div class="logos">
                   <i class="fab fa-html5 fa-4x"></i>
@@ -74,19 +79,23 @@
               </div>
             </div>
           </div>
-        
         </div>
       </section>
+      <!-- skills slider end -->
 
       <section>
-        <div>ABOUT</div>
-        
-
+        <div class="container">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+        </div>
       </section>
 
       <section>
         <div>CONTACT</div>
         <div class="container">
+
         </div>
       </section>
     </main>
@@ -94,12 +103,13 @@
     <footer>
       <section>
         <div class="container-fluid bg-dark p-4">
-          <p class="text-light text-center">&copy Copyright by <a href="#">Brij Mohan</a> | 2024</p>
+          <p class="text-light text-center">&copy Copyright Reserved by <a href="./index.html">Brij Mohan</a> | 2024</p>
         </div>
       </section>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
     <script src="scripts.js"></script>

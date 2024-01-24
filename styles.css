@@ -39,9 +39,7 @@ body {
 }
 
 .headlines p {
-  color: black; 
-  /* font-family: "arial"; */
-  /* font-size: 3em; */
+  color: black;
   margin: 10px 0 0 10px;
   white-space: nowrap;
   overflow: hidden;
